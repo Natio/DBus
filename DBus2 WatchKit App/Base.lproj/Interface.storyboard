@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="7701"/>
+    </dependencies>
+    <scenes>
+        <!--Root Watch Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="RootWatchController" customModule="DBus2_WatchKit_Extension">
+                    <items>
+                        <button width="1" height="50" alignment="left" title="Favorites" id="Fng-8W-Bxf">
+                            <connections>
+                                <segue destination="5iY-tD-tUZ" kind="push" identifier="favorites" id="3F5-Bc-hzY"/>
+                            </connections>
+                        </button>
+                        <button width="1" height="50.5" alignment="left" title="Favorites Nearby" id="8KJ-Bz-kEr">
+                            <connections>
+                                <segue destination="Xeo-ME-99P" kind="push" identifier="favNearby" id="lNZ-XJ-dR6"/>
+                            </connections>
+                        </button>
+                        <button width="1" height="50" alignment="left" title="Nearby" id="Ie3-We-teM">
+                            <connections>
+                                <segue destination="Xeo-ME-99P" kind="push" identifier="nearby" id="8gR-tu-5A7"/>
+                            </connections>
+                        </button>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="64" y="161.75"/>
+        </scene>
+        <!--Nearby-->
+        <scene sceneID="lZt-XU-cBC">
+            <objects>
+                <controller title="Nearby" id="Xeo-ME-99P" customClass="InterfaceController" customModule="DBus2_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <table alignment="left" id="szY-9h-6LW">
+                            <items>
+                                <tableRow identifier="DBusWatchTableRow" id="0ef-sp-rYf" customClass="DBusWatchTableRow" customModule="DBus2_WatchKit_Extension">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" layout="vertical" id="BQH-Ql-RML">
+                                        <items>
+                                            <label width="121" alignment="left" text="Label" numberOfLines="2" id="rOE-q3-1km"/>
+                                            <group width="117" alignment="left" id="jkh-nQ-yEL">
+                                                <items>
+                                                    <label width="70.5" alignment="left" text="Label" id="G43-cf-kEN">
+                                                        <color key="textColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
+                                                    </label>
+                                                    <label width="40" alignment="left" text="1680" textAlignment="right" id="3sK-j3-pS8">
+                                                        <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
+                                                    </label>
+                                                </items>
+                                            </group>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="distanceLabel" destination="G43-cf-kEN" id="DdW-Y8-2eZ"/>
+                                        <outlet property="numberLabel" destination="3sK-j3-pS8" id="BMg-Fi-KXp"/>
+                                        <outlet property="titleLabel" destination="rOE-q3-1km" id="U2K-cy-4iw"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="stopsList" destination="szY-9h-6LW" id="c1H-f4-Yoz"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="445" y="307"/>
+        </scene>
+        <!--Favorites-->
+        <scene sceneID="11u-bq-rH4">
+            <objects>
+                <controller title="Favorites" id="5iY-tD-tUZ" customClass="FavoritesInterfaceController" customModule="DBus2_WatchKit_Extension">
+                    <items>
+                        <table alignment="left" id="zKx-TN-878">
+                            <items>
+                                <tableRow identifier="DBusWatchTableRow" id="EcW-OG-68y" customClass="DBusWatchTableRow" customModule="DBus2_WatchKit_Extension">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" layout="vertical" id="owL-Ra-jHP">
+                                        <items>
+                                            <label width="121" alignment="left" text="Label" numberOfLines="2" id="6Ar-0O-7Fh"/>
+                                            <group width="117" alignment="left" id="XGZ-wR-WYa">
+                                                <items>
+                                                    <label width="70.5" alignment="left" text="Label" id="3Nu-6R-OsB">
+                                                        <color key="textColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
+                                                    </label>
+                                                    <label width="40" alignment="left" text="1680" textAlignment="right" id="GIX-kD-bp9">
+                                                        <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
+                                                    </label>
+                                                </items>
+                                            </group>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="distanceLabel" destination="3Nu-6R-OsB" id="aNt-0D-Hdw"/>
+                                        <outlet property="numberLabel" destination="GIX-kD-bp9" id="Qqb-q9-3js"/>
+                                        <outlet property="titleLabel" destination="6Ar-0O-7Fh" id="cNz-6l-FS4"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="stopsList" destination="zKx-TN-878" id="9DQ-ti-HiV"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="339" y="-32"/>
+        </scene>
+        <!--Real Time-->
+        <scene sceneID="vjq-LP-QUA">
+            <objects>
+                <controller identifier="RealTimeScene" title="Real Time" id="Hkd-CS-jUh" customClass="StopInterfaceController" customModule="DBus2_WatchKit_Extension">
+                    <items>
+                        <group alignment="left" layout="vertical" id="4my-q7-mvZ">
+                            <items>
+                                <label width="132.5" alignment="left" text="Label" numberOfLines="2" id="FY9-sT-v7y">
+                                    <fontDescription key="font" style="UICTFontTextStyleCaption2"/>
+                                </label>
+                                <label width="133.5" alignment="left" text="Label" textAlignment="left" id="coo-We-Q4v">
+                                    <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
+                                </label>
+                                <label alignment="left" text="Label" numberOfLines="0" id="8eR-dS-GIo">
+                                    <color key="textColor" red="0.052765942150000002" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <fontDescription key="font" style="UICTFontTextStyleCaption1"/>
+                                </label>
+                            </items>
+                        </group>
+                        <table alignment="left" id="irb-FW-okg">
+                            <items>
+                                <tableRow identifier="realtime" id="vd4-MD-eUY" customClass="RealTimeBusInfoRow" customModule="DBus2_WatchKit_Extension">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" id="8wm-0V-Hf9">
+                                        <items>
+                                            <label width="47" height="22.5" alignment="left" text="Label" id="hCJ-Gl-dUU"/>
+                                            <label width="75.5" alignment="left" text="Label" textAlignment="right" id="VMY-HQ-BGe">
+                                                <color key="textColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            </label>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="etaLabel" destination="VMY-HQ-BGe" id="h01-OH-VrC"/>
+                                        <outlet property="routeNameLabel" destination="hCJ-Gl-dUU" id="r7a-Ko-7th"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <menu key="menu" id="dQ5-e4-u8R">
+                        <items>
+                            <menuItem title="Remove Favorite" icon="decline" id="Lcp-g0-lpP">
+                                <connections>
+                                    <action selector="removeCurrentFromFavs" destination="Hkd-CS-jUh" id="0Z6-vJ-1uW"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Add to Favorites" icon="add" id="1CN-Kq-Wap">
+                                <connections>
+                                    <action selector="makeCurrentFav" destination="Hkd-CS-jUh" id="nLc-Uw-XbU"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                    <connections>
+                        <outlet property="busList" destination="irb-FW-okg" id="lHo-la-wkb"/>
+                        <outlet property="stopNameLabel" destination="FY9-sT-v7y" id="oTr-Dh-2dL"/>
+                        <outlet property="stopNumberLabel" destination="coo-We-Q4v" id="g2h-wG-grT"/>
+                        <outlet property="stopRoutesLabel" destination="8eR-dS-GIo" id="VVq-Qj-Z4e"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="519" y="9"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="lNZ-XJ-dR6"/>
+    </inferredMetricsTieBreakers>
+</document>

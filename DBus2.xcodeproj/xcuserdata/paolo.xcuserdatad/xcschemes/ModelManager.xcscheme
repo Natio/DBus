@@ -14,37 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "524051461B4C8B50007DE7EA"
-               BuildableName = "DBus2.app"
-               BlueprintName = "DBus2"
-               ReferencedContainer = "container:DBus2.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5240515B1B4C8B51007DE7EA"
-               BuildableName = "DBus2Tests.xctest"
-               BlueprintName = "DBus2Tests"
-               ReferencedContainer = "container:DBus2.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "524051A41B4C8BF2007DE7EA"
-               BuildableName = "ModelManagerTests.xctest"
-               BlueprintName = "ModelManagerTests"
+               BlueprintIdentifier = "5240519A1B4C8BF2007DE7EA"
+               BuildableName = "ModelManager.framework"
+               BlueprintName = "ModelManager"
                ReferencedContainer = "container:DBus2.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -60,16 +32,6 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5240515B1B4C8B51007DE7EA"
-               BuildableName = "DBus2Tests.xctest"
-               BlueprintName = "DBus2Tests"
-               ReferencedContainer = "container:DBus2.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
                BlueprintIdentifier = "524051A41B4C8BF2007DE7EA"
                BuildableName = "ModelManagerTests.xctest"
                BlueprintName = "ModelManagerTests"
@@ -80,9 +42,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "524051461B4C8B50007DE7EA"
-            BuildableName = "DBus2.app"
-            BlueprintName = "DBus2"
+            BlueprintIdentifier = "5240519A1B4C8BF2007DE7EA"
+            BuildableName = "ModelManager.framework"
+            BlueprintName = "ModelManager"
             ReferencedContainer = "container:DBus2.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -96,16 +58,15 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "524051461B4C8B50007DE7EA"
-            BuildableName = "DBus2.app"
-            BlueprintName = "DBus2"
+            BlueprintIdentifier = "5240519A1B4C8BF2007DE7EA"
+            BuildableName = "ModelManager.framework"
+            BlueprintName = "ModelManager"
             ReferencedContainer = "container:DBus2.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -115,16 +76,15 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "524051461B4C8B50007DE7EA"
-            BuildableName = "DBus2.app"
-            BlueprintName = "DBus2"
+            BlueprintIdentifier = "5240519A1B4C8BF2007DE7EA"
+            BuildableName = "ModelManager.framework"
+            BlueprintName = "ModelManager"
             ReferencedContainer = "container:DBus2.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

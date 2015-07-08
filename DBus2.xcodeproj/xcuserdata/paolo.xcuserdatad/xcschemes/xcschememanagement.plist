@@ -4,10 +4,48 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>DBus2 WatchKit App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>DBus2.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>ModelManager.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>524051461B4C8B50007DE7EA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5240515B1B4C8B51007DE7EA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5240517F1B4C8BA9007DE7EA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5240519A1B4C8BF2007DE7EA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>524051A41B4C8BF2007DE7EA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
