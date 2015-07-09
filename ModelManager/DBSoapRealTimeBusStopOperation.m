@@ -105,6 +105,9 @@
         NSLog(@"%@ %@",routeElement.stringValue, arrivalTimeElement.stringValue);
         NSLog(@"%@",eta);
         NSLog(@"%@",[formatter stringFromDate:eta]);
+        if (routeElement.stringValue && eta) {
+            [routes addObject: [DBRealTimeStopTime timeWithRoute:routeElement.stringValue eta:eta]];
+        }
     }
     return [DBRealTimeStop stopWithNumber:self.stopNumber routes:routes];
 }

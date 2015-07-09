@@ -19,10 +19,20 @@ class StopInterfaceController: WKInterfaceController{
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
         self.stopRoutesLabel.setText(nil)
+        
+        self.busList.setNumberOfRows(1, withRowType: "realtime")
+        let row = self.busList.rowControllerAtIndex(0) as? RealTimeBusInfoRow
+        row?.etaLabel.setText("")
+        
         if let ctx = context as? NSDictionary{
             self.stopNumber = ctx["stopNumber"] as? Int
             self.stopNumberLabel.setText("\(self.stopNumber!)")
             self.stopNameLabel.setText(ctx["address"] as? String)
+            
+            row?.routeNameLabel.setText("Loading")
+        }
+        else{
+            row?.routeNameLabel.setText("Error");
         }
         
     }

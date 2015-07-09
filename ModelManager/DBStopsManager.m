@@ -11,6 +11,7 @@
 #import "DBBusStopFetchOperation.h"
 #import "DBBusStopRealTimeOperation.h"
 #import "DBRealTimeStop.h"
+#import "DBSoapRealTimeBusStopOperation.h"
 
 #define EXECUTE_ON_MAIN(h,...) \
     do{\
@@ -162,7 +163,7 @@ static DBStopsManager * sharedInstance = nil;
 }
 
 - (void)getRealTimeDataForStop:(NSInteger) stopNumber handler:(nonnull void(^)(DBRealTimeStop * __nonnull stop))handler{
-    [self.networkQueue addOperation:[[DBBusStopRealTimeOperation alloc] initWithStopNumber:stopNumber handler:handler]];
+    [self.networkQueue addOperation:[[DBSoapRealTimeBusStopOperation alloc] initWithStopNumber:stopNumber handler:handler]];
 }
 
 @end
