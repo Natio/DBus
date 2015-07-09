@@ -8,32 +8,26 @@
 
 #import "DBBusStopFetchOperation.h"
 #import "DBBusStop.h"
-#import "DBBusStopFetchOperation_Private.h"
+#import "DBOperation_Private.h"
 
 #define API_ENDPOINT @"http://www.dublinbus.ie/Templates/Public/RoutePlannerService/RTPIMapHandler.ashx?ne=53.631314,-5.799202&sw=53.054946,-6.735786&zoom=10&czoom=16"
 
 @interface DBBusStopFetchOperation ()
-@property (nonatomic, strong) DBBusStopFetchOperationHandler handler;
-@property (nonatomic, assign) BOOL hasInjectedData;
+
+@property (nonatomic, strong, nonnull) DBBusStopFetchOperationHandler handler;
+
 @end
 
 @implementation DBBusStopFetchOperation
 
-- (instancetype)initWithHandler:(DBBusStopFetchOperationHandler)handler{
+- (nonnull instancetype)initWithHandler:(DBBusStopFetchOperationHandler __nonnull)handler{
     if (self = [super init]) {
         _handler = handler;
     }
     return self;
 }
 
-- (void)setData:(NSData *)data{
-    if (data != _data) {
-        _data = data;
-    }
-    self.hasInjectedData = YES;
-}
-
-- (NSData *)downloadData{
+- (nullable NSData *)downloadData{
     return self.hasInjectedData ? self.data : [NSData dataWithContentsOfURL: [NSURL URLWithString:API_ENDPOINT]];
 }
 
@@ -65,7 +59,6 @@
     }
     
     DBBusStopFetchOperationHandler handler = [self handler];
-    self.handler = NULL;
     
     if (handler) {
         dispatch_async(dispatch_get_main_queue(), ^{

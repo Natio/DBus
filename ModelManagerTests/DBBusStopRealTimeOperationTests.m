@@ -9,8 +9,8 @@
 #import <Foundation/Foundation.h>
 #import <XCTest/XCTest.h>
 #import "DBBusStopRealTimeOperation.h"
-#import "DBBusStopRealTimeOperation_Private.h"
 #import "DBRealTimeStop.h"
+#import "DBOperation_Private.h"
 
 @interface DBBusStopRealTimeOperationTests : XCTestCase
 

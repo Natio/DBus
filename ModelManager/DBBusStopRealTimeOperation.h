@@ -7,12 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "DBOperation.h"
 
 @class DBRealTimeStop;
 
 typedef void(^DBBusStopRealTimeOperationHandler) (DBRealTimeStop * __nonnull);
 
-@interface DBBusStopRealTimeOperation : NSOperation
+@interface DBBusStopRealTimeOperation : DBOperation
 
 - (nonnull instancetype)initWithStopNumber:(NSInteger)number handler:(DBBusStopRealTimeOperationHandler __nonnull)handler;
 

@@ -7,9 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "DBOperation.h"
 
-typedef void (^DBBusStopFetchOperationHandler)(NSArray * results);
+typedef void (^DBBusStopFetchOperationHandler)(NSArray * __nonnull results);
 
-@interface DBBusStopFetchOperation : NSOperation
-- (instancetype)initWithHandler:(DBBusStopFetchOperationHandler)handler;
+@interface DBBusStopFetchOperation : DBOperation
+
+- (nonnull instancetype)initWithHandler:(DBBusStopFetchOperationHandler __nonnull)handler;
+
 @end

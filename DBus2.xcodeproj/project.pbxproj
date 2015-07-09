@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5208BCA91B4DC67600BDD04B /* DBOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 5208BCA71B4DC67600BDD04B /* DBOperation.h */; };
+		5208BCAA1B4DC67600BDD04B /* DBOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5208BCA81B4DC67600BDD04B /* DBOperation.m */; };
+		5208BCAB1B4DC67600BDD04B /* DBOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5208BCA81B4DC67600BDD04B /* DBOperation.m */; };
+		5208BCAD1B4DC68900BDD04B /* DBOperation_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 5208BCAC1B4DC68900BDD04B /* DBOperation_Private.h */; };
+		5208BCB01B4DC94C00BDD04B /* DBSoapRealTimeBusStopOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 5208BCAE1B4DC94C00BDD04B /* DBSoapRealTimeBusStopOperation.h */; };
+		5208BCB11B4DC94C00BDD04B /* DBSoapRealTimeBusStopOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5208BCAF1B4DC94C00BDD04B /* DBSoapRealTimeBusStopOperation.m */; };
+		5208BCB21B4DC94C00BDD04B /* DBSoapRealTimeBusStopOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5208BCAF1B4DC94C00BDD04B /* DBSoapRealTimeBusStopOperation.m */; };
+		5208BCCA1B4DD57D00BDD04B /* DBSoapRealTimeBusStopOperationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5208BCC91B4DD57D00BDD04B /* DBSoapRealTimeBusStopOperationTests.m */; };
+		5208BCCD1B4DD9AA00BDD04B /* GDataXMLNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 5208BCCB1B4DD9AA00BDD04B /* GDataXMLNode.h */; };
+		5208BCCE1B4DD9AA00BDD04B /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 5208BCCC1B4DD9AA00BDD04B /* GDataXMLNode.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5208BCCF1B4DD9AA00BDD04B /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 5208BCCC1B4DD9AA00BDD04B /* GDataXMLNode.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5208BCD01B4DD9C400BDD04B /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5208BCB31B4DCDF400BDD04B /* libxml2.dylib */; };
+		5208BCD21B4DE33B00BDD04B /* real_time_soap.xml in Resources */ = {isa = PBXBuildFile; fileRef = 5208BCD11B4DE33B00BDD04B /* real_time_soap.xml */; };
+		5208BCD31B4DE33B00BDD04B /* real_time_soap.xml in Resources */ = {isa = PBXBuildFile; fileRef = 5208BCD11B4DE33B00BDD04B /* real_time_soap.xml */; };
 		5240514D1B4C8B51007DE7EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5240514C1B4C8B51007DE7EA /* AppDelegate.swift */; };
 		524051521B4C8B51007DE7EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 524051501B4C8B51007DE7EA /* Main.storyboard */; };
 		524051541B4C8B51007DE7EA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 524051531B4C8B51007DE7EA /* Images.xcassets */; };
@@ -28,11 +42,9 @@
 		524051CB1B4C8C14007DE7EA /* DBBusStop.m in Sources */ = {isa = PBXBuildFile; fileRef = 524051BC1B4C8C14007DE7EA /* DBBusStop.m */; };
 		524051CC1B4C8C14007DE7EA /* DBBusStop.m in Sources */ = {isa = PBXBuildFile; fileRef = 524051BC1B4C8C14007DE7EA /* DBBusStop.m */; };
 		524051CD1B4C8C14007DE7EA /* DBBusStop+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 524051BD1B4C8C14007DE7EA /* DBBusStop+Private.h */; };
-		524051CE1B4C8C14007DE7EA /* DBBusStopFetchOperation_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 524051BE1B4C8C14007DE7EA /* DBBusStopFetchOperation_Private.h */; };
 		524051CF1B4C8C14007DE7EA /* DBBusStopFetchOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 524051BF1B4C8C14007DE7EA /* DBBusStopFetchOperation.h */; };
 		524051D01B4C8C14007DE7EA /* DBBusStopFetchOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 524051C01B4C8C14007DE7EA /* DBBusStopFetchOperation.m */; };
 		524051D11B4C8C14007DE7EA /* DBBusStopFetchOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 524051C01B4C8C14007DE7EA /* DBBusStopFetchOperation.m */; };
-		524051D21B4C8C14007DE7EA /* DBBusStopRealTimeOperation_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 524051C11B4C8C14007DE7EA /* DBBusStopRealTimeOperation_Private.h */; };
 		524051D31B4C8C14007DE7EA /* DBBusStopRealTimeOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 524051C21B4C8C14007DE7EA /* DBBusStopRealTimeOperation.h */; };
 		524051D41B4C8C14007DE7EA /* DBBusStopRealTimeOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 524051C31B4C8C14007DE7EA /* DBBusStopRealTimeOperation.m */; };
 		524051D51B4C8C14007DE7EA /* DBBusStopRealTimeOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 524051C31B4C8C14007DE7EA /* DBBusStopRealTimeOperation.m */; };
@@ -188,6 +200,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5208BCA71B4DC67600BDD04B /* DBOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBOperation.h; sourceTree = "<group>"; };
+		5208BCA81B4DC67600BDD04B /* DBOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBOperation.m; sourceTree = "<group>"; };
+		5208BCAC1B4DC68900BDD04B /* DBOperation_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBOperation_Private.h; sourceTree = "<group>"; };
+		5208BCAE1B4DC94C00BDD04B /* DBSoapRealTimeBusStopOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBSoapRealTimeBusStopOperation.h; sourceTree = "<group>"; };
+		5208BCAF1B4DC94C00BDD04B /* DBSoapRealTimeBusStopOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBSoapRealTimeBusStopOperation.m; sourceTree = "<group>"; };
+		5208BCB31B4DCDF400BDD04B /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		5208BCC91B4DD57D00BDD04B /* DBSoapRealTimeBusStopOperationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBSoapRealTimeBusStopOperationTests.m; sourceTree = "<group>"; };
+		5208BCCB1B4DD9AA00BDD04B /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataXMLNode.h; sourceTree = "<group>"; };
+		5208BCCC1B4DD9AA00BDD04B /* GDataXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataXMLNode.m; sourceTree = "<group>"; };
+		5208BCD11B4DE33B00BDD04B /* real_time_soap.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = real_time_soap.xml; sourceTree = "<group>"; };
 		524051471B4C8B50007DE7EA /* DBus2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DBus2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5240514B1B4C8B51007DE7EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5240514C1B4C8B51007DE7EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -215,10 +237,8 @@
 		524051BB1B4C8C14007DE7EA /* DBBusStop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBBusStop.h; sourceTree = "<group>"; };
 		524051BC1B4C8C14007DE7EA /* DBBusStop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBBusStop.m; sourceTree = "<group>"; };
 		524051BD1B4C8C14007DE7EA /* DBBusStop+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DBBusStop+Private.h"; sourceTree = "<group>"; };
-		524051BE1B4C8C14007DE7EA /* DBBusStopFetchOperation_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBBusStopFetchOperation_Private.h; sourceTree = "<group>"; };
 		524051BF1B4C8C14007DE7EA /* DBBusStopFetchOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBBusStopFetchOperation.h; sourceTree = "<group>"; };
 		524051C01B4C8C14007DE7EA /* DBBusStopFetchOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBBusStopFetchOperation.m; sourceTree = "<group>"; };
-		524051C11B4C8C14007DE7EA /* DBBusStopRealTimeOperation_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBBusStopRealTimeOperation_Private.h; sourceTree = "<group>"; };
 		524051C21B4C8C14007DE7EA /* DBBusStopRealTimeOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBBusStopRealTimeOperation.h; sourceTree = "<group>"; };
 		524051C31B4C8C14007DE7EA /* DBBusStopRealTimeOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBBusStopRealTimeOperation.m; sourceTree = "<group>"; };
 		524051C41B4C8C14007DE7EA /* DBDatabaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBDatabaseController.h; sourceTree = "<group>"; };
@@ -313,6 +333,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5208BCD01B4DD9C400BDD04B /* libxml2.dylib in Frameworks */,
 				524052101B4C8D3D007DE7EA /* libsqlite3.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -329,6 +350,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5208BCB91B4DD10000BDD04B /* GDataXMLNode */ = {
+			isa = PBXGroup;
+			children = (
+				5208BCCB1B4DD9AA00BDD04B /* GDataXMLNode.h */,
+				5208BCCC1B4DD9AA00BDD04B /* GDataXMLNode.m */,
+			);
+			name = GDataXMLNode;
+			sourceTree = "<group>";
+		};
 		5240513E1B4C8B50007DE7EA = {
 			isa = PBXGroup;
 			children = (
@@ -341,6 +371,7 @@
 				524051481B4C8B50007DE7EA /* Products */,
 				5240529E1B4CA0D6007DE7EA /* CoreLocation.framework */,
 				5240520F1B4C8D3D007DE7EA /* libsqlite3.dylib */,
+				5208BCB31B4DCDF400BDD04B /* libxml2.dylib */,
 			);
 			sourceTree = "<group>";
 		};
@@ -444,10 +475,12 @@
 		5240519C1B4C8BF2007DE7EA /* ModelManager */ = {
 			isa = PBXGroup;
 			children = (
+				5208BCB91B4DD10000BDD04B /* GDataXMLNode */,
 				524051E81B4C8C95007DE7EA /* ObjectiveGumbo */,
 				524051DF1B4C8C3F007DE7EA /* Operations */,
 				524051BB1B4C8C14007DE7EA /* DBBusStop.h */,
 				524051BC1B4C8C14007DE7EA /* DBBusStop.m */,
+				524051BD1B4C8C14007DE7EA /* DBBusStop+Private.h */,
 				524051C41B4C8C14007DE7EA /* DBDatabaseController.h */,
 				524051C51B4C8C14007DE7EA /* DBDatabaseController.m */,
 				524051C61B4C8C14007DE7EA /* DBRealTimeStop.h */,
@@ -464,6 +497,7 @@
 			isa = PBXGroup;
 			children = (
 				5240519E1B4C8BF2007DE7EA /* Info.plist */,
+				5208BCD11B4DE33B00BDD04B /* real_time_soap.xml */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -471,6 +505,7 @@
 		524051AB1B4C8BF2007DE7EA /* ModelManagerTests */ = {
 			isa = PBXGroup;
 			children = (
+				5208BCC91B4DD57D00BDD04B /* DBSoapRealTimeBusStopOperationTests.m */,
 				524051E01B4C8C5D007DE7EA /* DatabaseControllerTests.m */,
 				524051E11B4C8C5D007DE7EA /* DBBusStopFetchOperationTests.m */,
 				524051E21B4C8C5D007DE7EA /* DBBusStopRealTimeOperationTests.m */,
@@ -492,13 +527,15 @@
 		524051DF1B4C8C3F007DE7EA /* Operations */ = {
 			isa = PBXGroup;
 			children = (
-				524051BD1B4C8C14007DE7EA /* DBBusStop+Private.h */,
-				524051BE1B4C8C14007DE7EA /* DBBusStopFetchOperation_Private.h */,
+				5208BCAC1B4DC68900BDD04B /* DBOperation_Private.h */,
+				5208BCA71B4DC67600BDD04B /* DBOperation.h */,
+				5208BCA81B4DC67600BDD04B /* DBOperation.m */,
 				524051BF1B4C8C14007DE7EA /* DBBusStopFetchOperation.h */,
 				524051C01B4C8C14007DE7EA /* DBBusStopFetchOperation.m */,
-				524051C11B4C8C14007DE7EA /* DBBusStopRealTimeOperation_Private.h */,
 				524051C21B4C8C14007DE7EA /* DBBusStopRealTimeOperation.h */,
 				524051C31B4C8C14007DE7EA /* DBBusStopRealTimeOperation.m */,
+				5208BCAE1B4DC94C00BDD04B /* DBSoapRealTimeBusStopOperation.h */,
+				5208BCAF1B4DC94C00BDD04B /* DBSoapRealTimeBusStopOperation.m */,
 			);
 			name = Operations;
 			sourceTree = "<group>";
@@ -573,10 +610,12 @@
 				5240527B1B4C8E36007DE7EA /* string_piece.h in Headers */,
 				5240528B1B4C8E36007DE7EA /* vector.h in Headers */,
 				524051A01B4C8BF2007DE7EA /* ModelManager.h in Headers */,
+				5208BCA91B4DC67600BDD04B /* DBOperation.h in Headers */,
 				524052711B4C8E36007DE7EA /* gumbo.h in Headers */,
 				524052781B4C8E36007DE7EA /* string_buffer.h in Headers */,
 				524052751B4C8E36007DE7EA /* parser.h in Headers */,
 				524051CA1B4C8C14007DE7EA /* DBBusStop.h in Headers */,
+				5208BCB01B4DC94C00BDD04B /* DBSoapRealTimeBusStopOperation.h in Headers */,
 				524051FD1B4C8CC9007DE7EA /* ObjectiveGumbo.h in Headers */,
 				5240526A1B4C8E36007DE7EA /* attribute.h in Headers */,
 				524052851B4C8E36007DE7EA /* utf8.h in Headers */,
@@ -584,15 +623,15 @@
 				5240527E1B4C8E36007DE7EA /* token_type.h in Headers */,
 				524051D31B4C8C14007DE7EA /* DBBusStopRealTimeOperation.h in Headers */,
 				524051CF1B4C8C14007DE7EA /* DBBusStopFetchOperation.h in Headers */,
-				524051D21B4C8C14007DE7EA /* DBBusStopRealTimeOperation_Private.h in Headers */,
 				524052091B4C8CC9007DE7EA /* OGText.h in Headers */,
 				524052061B4C8CC9007DE7EA /* OGNode.h in Headers */,
 				5240520C1B4C8CC9007DE7EA /* OGUtility.h in Headers */,
 				524052031B4C8CC9007DE7EA /* OGElement.h in Headers */,
 				524051FA1B4C8CC9007DE7EA /* NSString+OGString.h in Headers */,
 				524052721B4C8E36007DE7EA /* insertion_mode.h in Headers */,
+				5208BCCD1B4DD9AA00BDD04B /* GDataXMLNode.h in Headers */,
+				5208BCAD1B4DC68900BDD04B /* DBOperation_Private.h in Headers */,
 				524051CD1B4C8C14007DE7EA /* DBBusStop+Private.h in Headers */,
-				524051CE1B4C8C14007DE7EA /* DBBusStopFetchOperation_Private.h in Headers */,
 				524052701B4C8E36007DE7EA /* error.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -715,6 +754,7 @@
 		5240513F1B4C8B50007DE7EA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Paolo Coronati";
 				TargetAttributes = {
@@ -815,6 +855,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5208BCD21B4DE33B00BDD04B /* real_time_soap.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -822,6 +863,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5208BCD31B4DE33B00BDD04B /* real_time_soap.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -868,6 +910,7 @@
 				524052761B4C8E36007DE7EA /* string_buffer.c in Sources */,
 				524052861B4C8E36007DE7EA /* util.c in Sources */,
 				524052801B4C8E36007DE7EA /* tokenizer.c in Sources */,
+				5208BCCE1B4DD9AA00BDD04B /* GDataXMLNode.m in Sources */,
 				524052011B4C8CC9007DE7EA /* OGDocument.m in Sources */,
 				5240526E1B4C8E36007DE7EA /* error.c in Sources */,
 				524051FE1B4C8CC9007DE7EA /* ObjectiveGumbo.m in Sources */,
@@ -877,8 +920,10 @@
 				524052681B4C8E36007DE7EA /* attribute.c in Sources */,
 				5240527C1B4C8E36007DE7EA /* tag.c in Sources */,
 				524052041B4C8CC9007DE7EA /* OGElement.m in Sources */,
+				5208BCB11B4DC94C00BDD04B /* DBSoapRealTimeBusStopOperation.m in Sources */,
 				524052071B4C8CC9007DE7EA /* OGNode.m in Sources */,
 				5240520A1B4C8CC9007DE7EA /* OGText.m in Sources */,
+				5208BCAA1B4DC67600BDD04B /* DBOperation.m in Sources */,
 				524051CB1B4C8C14007DE7EA /* DBBusStop.m in Sources */,
 				524051D41B4C8C14007DE7EA /* DBBusStopRealTimeOperation.m in Sources */,
 				524051DD1B4C8C14007DE7EA /* DBStopsManager.m in Sources */,
@@ -895,10 +940,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				5240520E1B4C8CC9007DE7EA /* OGUtility.m in Sources */,
+				5208BCAB1B4DC67600BDD04B /* DBOperation.m in Sources */,
 				524051E41B4C8C5D007DE7EA /* DatabaseControllerTests.m in Sources */,
 				524052741B4C8E36007DE7EA /* parser.c in Sources */,
 				5240527A1B4C8E36007DE7EA /* string_piece.c in Sources */,
 				5240520B1B4C8CC9007DE7EA /* OGText.m in Sources */,
+				5208BCCA1B4DD57D00BDD04B /* DBSoapRealTimeBusStopOperationTests.m in Sources */,
 				5240526F1B4C8E36007DE7EA /* error.c in Sources */,
 				524051E61B4C8C5D007DE7EA /* DBBusStopRealTimeOperationTests.m in Sources */,
 				524052691B4C8E36007DE7EA /* attribute.c in Sources */,
@@ -917,9 +964,11 @@
 				524052051B4C8CC9007DE7EA /* OGElement.m in Sources */,
 				524051E51B4C8C5D007DE7EA /* DBBusStopFetchOperationTests.m in Sources */,
 				5240528A1B4C8E36007DE7EA /* vector.c in Sources */,
+				5208BCB21B4DC94C00BDD04B /* DBSoapRealTimeBusStopOperation.m in Sources */,
 				524051AF1B4C8BF2007DE7EA /* ModelManagerTests.m in Sources */,
 				524051E71B4C8C5D007DE7EA /* DBStopsManagerTests.m in Sources */,
 				524051DB1B4C8C14007DE7EA /* DBRealTimeStop.m in Sources */,
+				5208BCCF1B4DD9AA00BDD04B /* GDataXMLNode.m in Sources */,
 				524052841B4C8E36007DE7EA /* utf8.c in Sources */,
 				524051D81B4C8C14007DE7EA /* DBDatabaseController.m in Sources */,
 				524052081B4C8CC9007DE7EA /* OGNode.m in Sources */,
@@ -1216,9 +1265,15 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/include/libxml2,
+				);
 				INFOPLIST_FILE = ModelManager/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "-lxml2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1236,9 +1291,15 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/include/libxml2,
+				);
 				INFOPLIST_FILE = ModelManager/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "-lxml2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1258,8 +1319,19 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/include/libxml2,
+				);
 				INFOPLIST_FILE = ModelManagerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					XCTest,
+					"-lxml2",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DBus2.app/DBus2";
 			};
@@ -1272,8 +1344,19 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/include/libxml2,
+				);
 				INFOPLIST_FILE = ModelManagerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					XCTest,
+					"-lxml2",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DBus2.app/DBus2";
 			};
@@ -1298,6 +1381,7 @@
 				524051681B4C8B51007DE7EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		524051691B4C8B51007DE7EA /* Build configuration list for PBXNativeTarget "DBus2Tests" */ = {
 			isa = XCConfigurationList;
@@ -1306,6 +1390,7 @@
 				5240516B1B4C8B51007DE7EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5240518F1B4C8BA9007DE7EA /* Build configuration list for PBXNativeTarget "DBus2 WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -1314,6 +1399,7 @@
 				524051911B4C8BA9007DE7EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		524051921B4C8BA9007DE7EA /* Build configuration list for PBXNativeTarget "DBus2 WatchKit Extension" */ = {
 			isa = XCConfigurationList;
@@ -1322,6 +1408,7 @@
 				524051941B4C8BA9007DE7EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		524051B41B4C8BF2007DE7EA /* Build configuration list for PBXNativeTarget "ModelManager" */ = {
 			isa = XCConfigurationList;
@@ -1330,6 +1417,7 @@
 				524051B61B4C8BF2007DE7EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		524051B81B4C8BF2007DE7EA /* Build configuration list for PBXNativeTarget "ModelManagerTests" */ = {
 			isa = XCConfigurationList;
@@ -1338,6 +1426,7 @@
 				524051BA1B4C8BF2007DE7EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

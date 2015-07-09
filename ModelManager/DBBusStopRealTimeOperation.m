@@ -7,17 +7,16 @@
 //
 
 #import "DBBusStopRealTimeOperation.h"
-#import "DBBusStopRealTimeOperation_Private.h"
 #import "ObjectiveGumbo.h"
 #import "DBRealTimeStop.h"
+#import "DBOperation_Private.h"
 
 #define BASE_URL @"http://www.dublinbus.ie/en/RTPI/Sources-of-Real-Time-Information/?searchtype=view&searchquery="
 
 @interface DBBusStopRealTimeOperation ()
 
-@property (nonatomic, copy) DBBusStopRealTimeOperationHandler __nonnull handler;
+@property (nonatomic, copy, nonnull) DBBusStopRealTimeOperationHandler handler;
 @property (nonatomic, assign) NSInteger stopNumber;
-@property (nonatomic, assign) BOOL hasInjectedData;
 @end
 
 @implementation DBBusStopRealTimeOperation
@@ -26,16 +25,8 @@
     if (self = [super init]) {
         _handler = [handler copy];
         _stopNumber = number;
-        _hasInjectedData = NO;
     }
     return self;
-}
-
-- (void)setData:(NSData *)data{
-    if (data != _data) {
-        _data = data;
-    }
-    _hasInjectedData = YES;
 }
 
 - (NSData * )downloadData{
@@ -52,7 +43,7 @@
     
     NSArray * components = [timeString componentsSeparatedByString:@":"];
     if ([components count] == 2) {
-        NSString * min = components[0];
+        NSString * min = components[1];
         NSString * h = components[0];
         if (min && h){
             int minutes = [min intValue];
