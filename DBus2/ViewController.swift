@@ -18,7 +18,7 @@ class ViewController: UITableViewController {
         self.navigationItem.leftBarButtonItem = self.editButtonItem()
         super.viewDidLoad()
         DBStopsManager.sharedInstance().favorites { (result:[AnyObject]) -> Void in
-            self.stops.extend( result as! [DBBusStop])
+            self.stops.appendContentsOf( result as! [DBBusStop])
             self.tableView.reloadData()
         }
 
@@ -31,8 +31,8 @@ class ViewController: UITableViewController {
                                   preferredStyle: UIAlertControllerStyle.Alert)
         controller.addTextFieldWithConfigurationHandler(nil)
         controller.addAction(UIAlertAction(title: "Add", style: UIAlertActionStyle.Default, handler: { (action: UIAlertAction!) -> Void in
-            if let tf = controller.textFields?.last as? UITextField {
-                if let number = tf.text.toInt(){
+            if let tf = controller.textFields?.last {
+                if let number = Int(tf.text!){
                     self.addStopWithNumber(number)
                 }
             }
@@ -72,7 +72,7 @@ class ViewController: UITableViewController {
     }
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("cell") as! UITableViewCell
+        let cell = tableView.dequeueReusableCellWithIdentifier("cell")!
         
         let stop = self.stops[indexPath.row]
         

@@ -85,9 +85,8 @@
         resultStop = [DBRealTimeStop stopWithNumber:self.stopNumber routes:@[]];
     }
     
-    __weak DBSoapRealTimeBusStopOperation * weakSelf = self;
     dispatch_async(dispatch_get_main_queue(), ^{
-        weakSelf.handler(resultStop);
+        self.handler(resultStop);
     });
     
 }

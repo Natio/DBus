@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ModelManager/DBSoapRealTimeBusStopOperation.m"
+            timestampString = "458090015.008124"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "-main"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[DBSoapRealTimeBusStopOperation main]"
+                  moduleName = "ModelManager"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/paolo/Desktop/DBus2/ModelManager/DBSoapRealTimeBusStopOperation.m"
+                  timestampString = "458088358.760305"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "342">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[DBSoapRealTimeBusStopOperation main]"
+                  moduleName = "ModelManagerTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/paolo/Desktop/DBus2/ModelManager/DBSoapRealTimeBusStopOperation.m"
+                  timestampString = "458088358.760462"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "342">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ModelManager/DBSoapRealTimeBusStopOperation.m"
+            timestampString = "458090015.008124"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "-main"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[DBSoapRealTimeBusStopOperation main]"
+                  moduleName = "ModelManager"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/paolo/Desktop/DBus2/ModelManager/DBSoapRealTimeBusStopOperation.m"
+                  timestampString = "458088370.690299"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "65"
+                  endingLineNumber = "65"
+                  offsetFromSymbolStart = "516">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[DBSoapRealTimeBusStopOperation main]"
+                  moduleName = "ModelManagerTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/paolo/Desktop/DBus2/ModelManager/DBSoapRealTimeBusStopOperation.m"
+                  timestampString = "458088370.812643"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "65"
+                  endingLineNumber = "65"
+                  offsetFromSymbolStart = "516">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ModelManager/DBSoapRealTimeBusStopOperation.m"
+            timestampString = "458090015.008124"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "-main"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[DBSoapRealTimeBusStopOperation main]"
+                  moduleName = "ModelManager"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/paolo/Desktop/DBus2/ModelManager/DBSoapRealTimeBusStopOperation.m"
+                  timestampString = "458088370.690727"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "409">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[DBSoapRealTimeBusStopOperation main]"
+                  moduleName = "ModelManagerTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/paolo/Desktop/DBus2/ModelManager/DBSoapRealTimeBusStopOperation.m"
+                  timestampString = "458088370.813484"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "409">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ModelManager/DBSoapRealTimeBusStopOperation.m"
+            timestampString = "458090015.008124"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "-main"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[DBSoapRealTimeBusStopOperation main]"
+                  moduleName = "ModelManager"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/paolo/Desktop/DBus2/ModelManager/DBSoapRealTimeBusStopOperation.m"
+                  timestampString = "458090338.06705"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "74"
+                  endingLineNumber = "74"
+                  offsetFromSymbolStart = "1074">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[DBSoapRealTimeBusStopOperation main]"
+                  moduleName = "ModelManagerTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/paolo/Desktop/DBus2/ModelManager/DBSoapRealTimeBusStopOperation.m"
+                  timestampString = "458090338.067348"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "74"
+                  endingLineNumber = "74"
+                  offsetFromSymbolStart = "1074">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ModelManager/DBSoapRealTimeBusStopOperation.m"
+            timestampString = "458090015.008124"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
+            landmarkName = "-main"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ModelManager/DBSoapRealTimeBusStopOperation.m"
+            timestampString = "458090015.008124"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "-main"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ModelManager/DBSoapRealTimeBusStopOperation.m"
+            timestampString = "458090015.008124"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
+            landmarkName = "-main"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[DBSoapRealTimeBusStopOperation main]"
+                  moduleName = "ModelManager"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/paolo/Desktop/DBus2/ModelManager/DBSoapRealTimeBusStopOperation.m"
+                  timestampString = "458089583.108142"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "70"
+                  endingLineNumber = "70"
+                  offsetFromSymbolStart = "722">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[DBSoapRealTimeBusStopOperation main]"
+                  moduleName = "ModelManagerTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/paolo/Desktop/DBus2/ModelManager/DBSoapRealTimeBusStopOperation.m"
+                  timestampString = "458089583.236146"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "70"
+                  endingLineNumber = "70"
+                  offsetFromSymbolStart = "722">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ModelManager/DBSoapRealTimeBusStopOperation.m"
+            timestampString = "458090015.008124"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
+            landmarkName = "-main"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[DBSoapRealTimeBusStopOperation main]"
+                  moduleName = "ModelManager"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/paolo/Desktop/DBus2/ModelManager/DBSoapRealTimeBusStopOperation.m"
+                  timestampString = "458089583.108672"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "762">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[DBSoapRealTimeBusStopOperation main]"
+                  moduleName = "ModelManagerTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/paolo/Desktop/DBus2/ModelManager/DBSoapRealTimeBusStopOperation.m"
+                  timestampString = "458089583.23638"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "762">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ModelManagerTests/DBSoapRealTimeBusStopOperationTests.m"
+            timestampString = "458089519.50461"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "-test00realData"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[DBSoapRealTimeBusStopOperationTests test00realData]"
+                  moduleName = "ModelManagerTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/paolo/Desktop/DBus2/ModelManagerTests/DBSoapRealTimeBusStopOperationTests.m"
+                  timestampString = "458089583.236642"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "200">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__53-[DBSoapRealTimeBusStopOperationTests test00realData]_block_invoke"
+                  moduleName = "ModelManagerTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/paolo/Desktop/DBus2/ModelManagerTests/DBSoapRealTimeBusStopOperationTests.m"
+                  timestampString = "458089583.236848"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "40">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ModelManager/DBSoapRealTimeBusStopOperation.m"
+            timestampString = "458257296.143011"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "111"
+            endingLineNumber = "111"
+            landmarkName = "-stopFromXML_Array:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

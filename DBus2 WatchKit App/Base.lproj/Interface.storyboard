@@ -74,7 +74,7 @@
         <!--Favorites-->
         <scene sceneID="11u-bq-rH4">
             <objects>
-                <controller title="Favorites" id="5iY-tD-tUZ" customClass="FavoritesInterfaceController" customModule="DBus2_WatchKit_Extension">
+                <controller title="Favorites" hidesWhenLoading="NO" id="5iY-tD-tUZ" customClass="FavoritesInterfaceController" customModule="DBus2_WatchKit_Extension">
                     <items>
                         <table alignment="left" id="zKx-TN-878">
                             <items>

@@ -22,13 +22,13 @@ class InterfaceController: WKInterfaceController, CLLocationManagerDelegate {
     let invocation_delay = 0.3
     var showFavorites = false
     
-    func locationManager(manager: CLLocationManager!, didChangeAuthorizationStatus status: CLAuthorizationStatus) {
+    func locationManager(manager: CLLocationManager, didChangeAuthorizationStatus status: CLAuthorizationStatus) {
         if status == CLAuthorizationStatus.AuthorizedWhenInUse || status == CLAuthorizationStatus.AuthorizedAlways{
             self.locationManager.startUpdatingLocation()
         }
     }
     
-    func locationManager(manager: CLLocationManager!, didUpdateLocations locations: [AnyObject]!) {
+    func locationManager(manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         self.oldLocation = self.currentLocation
         self.currentLocation = (locations.last as? CLLocation?)!
         if self.oldLocation == nil{
@@ -59,8 +59,8 @@ class InterfaceController: WKInterfaceController, CLLocationManagerDelegate {
         }
     }
     
-    func locationManager(manager: CLLocationManager!, didFailWithError error: NSError!) {
-        println(error)
+    func locationManager(manager: CLLocationManager, didFailWithError error: NSError) {
+        print(error)
     }
     
     override func awakeWithContext(context: AnyObject?) {
@@ -68,7 +68,7 @@ class InterfaceController: WKInterfaceController, CLLocationManagerDelegate {
         
         
         if let ctx = context as? [String: String]{
-            if let y: AnyObject = ctx["favorites"]{
+            if let _: AnyObject = ctx["favorites"]{
                 showFavorites = true
             }
         }
@@ -126,7 +126,7 @@ class InterfaceController: WKInterfaceController, CLLocationManagerDelegate {
             for (var i = 0; i < stops.count; i++){
                 let currentStop = stops[i]
                 let location = CLLocation(latitude: currentStop.coordinate.latitude, longitude: currentStop.coordinate.longitude)
-                let distanceInMeters = location.distanceFromLocation(self.currentLocation)
+                let distanceInMeters = location.distanceFromLocation(self.currentLocation!)
                 let distanceString = String(format: "%.0fm", arguments: [distanceInMeters])
                 
                 let row = self.stopsList.rowControllerAtIndex(i) as? DBusWatchTableRow
